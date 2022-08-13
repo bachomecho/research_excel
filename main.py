@@ -15,7 +15,6 @@ def conclusion_index_search(pure_text):
     conclusion_list = ["Conclusion", "Conclusions", "CONCLUSION", "CONCLUSIONS"]
     for i in range(len(pure_text.split())):
         for j in conclusion_list:
-        # if re.search("Conclusion", pure_text.split()[i]) or re.search("Conclusions", pure_text.split()[i]):
             if re.search(j, pure_text.split()[i]):
                 return i
 
@@ -35,14 +34,13 @@ def reference_index_search(conc_text):
     ref_list = ["Acknowledgment", "ACKNOWLEDGMENT", "REFERENCES", "References"]
     for i in range(len(conc_text)-1):
         for j in ref_list:
-        # if re.search("Acknowledgment", conc_text.split()[i]) or re.search("References", conc_text.split()[i]):
-            if re.search(j, conc_text.split()[i]): # TRY WITHOUT [i], search the split list
+            if re.search(j, conc_text.split()[i]):
                 return i
 
 def run():
     path = input("SPECIFY FOLDER WITH YOUR STUDIES: ") + '\\'
 
-    start_time = time.time()
+    start_time = time.time() # used to measure runtime
 
     name_list: list[str] = list()
     size_list: list[float] = list()
@@ -78,7 +76,7 @@ def run():
 
     df = pd.DataFrame(dict_)
 
-    df.to_excel("/../conclusion_v6.3.xlsx", index=False)
+    df.to_excel("../conclusion_excel.xlsx", index=False)
     print("[++] Successfully saved to excel.")
     print(f"[LOG] Execution time: {time.time() - start_time} seconds")
 
