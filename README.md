@@ -20,7 +20,7 @@ This is the output which then allows to quickly skim through your research and f
 
 ## Contact
 
-Feel free to contact me if you have improvement ideas.
+Feel free to contact me if you have improvement ideas.✅
 
 Twitter: @iliamechkarov
 ---------------------
