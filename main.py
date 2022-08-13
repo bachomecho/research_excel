@@ -1,7 +1,7 @@
 import os, re, time
 import pandas as pd
 from PyPDF2 import PdfReader
-from exceptionhandler import escape_xlsx_string
+from custom_modules.exceptionhandler import escape_xlsx_string
 
 
 def extract_text_func(reader)-> str:
@@ -78,7 +78,7 @@ def run():
 
     df = pd.DataFrame(dict_)
 
-    df.to_excel("conclusion_v6.3.xlsx", index=False)
+    df.to_excel("/../conclusion_v6.3.xlsx", index=False)
     print("[++] Successfully saved to excel.")
     print(f"[LOG] Execution time: {time.time() - start_time} seconds")
 
