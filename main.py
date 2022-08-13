@@ -5,7 +5,7 @@ from custom_modules.exceptionhandler import escape_xlsx_string
 
 
 def extract_text_func(reader)-> str:
-    text = ""
+    text = str()
     for page in range(round(len(reader.pages)/2), len(reader.pages)):
         text += reader.pages[page].extract_text()
     return text
@@ -20,7 +20,7 @@ def conclusion_index_search(pure_text):
 
 
 def conclusion_text(pure_text, start_number:int) -> str:
-    c_text_list: list[str] = []
+    c_text_list: list[str] = list()
 
     len_number = len(pure_text.split())
 
