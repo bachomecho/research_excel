@@ -10,8 +10,8 @@ After cloning the repo, run the main.py file.
 
 A prompt will ask you to enter the directory where you have stored all your research papers.
 
-<a href="url"><img src="https://user-images.githubusercontent.com/64164772/184477463-6ff640d6-b8b9-43df-aab3-cab30ccf13ff.png" align="left" height="400" width="700" ></a>
+![WindowsTerminal_zwcJ5uLoPG](https://user-images.githubusercontent.com/64164772/184477660-dad065d4-3b7d-4461-8199-50be10b8080b.png)
 
 ## Result
 
-<a href="url"><img src="https://user-images.githubusercontent.com/64164772/184477585-ded8dda6-6f7a-44cb-aeba-857d43f3cbb6.png" align="left" height="400" width="700" ></a>
+![excel_screen](https://user-images.githubusercontent.com/64164772/184477665-a5b72586-a74d-4394-b393-15d65bb2d78e.png)
