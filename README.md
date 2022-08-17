@@ -28,6 +28,12 @@ This is the output which then allows to quickly skim through your research and f
 
 I will be continously working on improving functionality and speed of the script. This is the initial version which will be improved in the future.
 
+## Next steps
+
+1. Implement multiprocessing as the process for scanning through the whole PDF to find the word 'Conclusion' can be quite time intensive. I think multiprocessing is the way to go because the text processing requires a lot of CPU work.
+
+2. Create an easy to use graphical interface for non-programmers as the people that can make use of this tool are mostly non-programmers.
+
 ## Contact
 
 Feel free to contact me if you have improvement ideas.✅
