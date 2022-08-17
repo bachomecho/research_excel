@@ -4,9 +4,17 @@ This tool automatically extracts the name of your research papers and the corres
 
 It then outputs them to an Excel file where you can navigate your research more easily.📈
 
+## Install requirements
+
+After cloning the repo, install the required modules using
+
+```
+pip install -r requirements.txt
+```
+
 ## Usage
 
-After cloning the repo, run the main.py file.
+Run the main.py file.
 
 A prompt will ask you to enter the directory where you have stored all your research papers.
 
